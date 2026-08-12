@@ -26,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  background: linear-gradient(rgba(240, 244, 243, 0.88), rgba(235, 241, 240, 0.92)), url('../images/new_bg.png') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(240, 244, 243, 0.5), rgba(235, 241, 240, 0.6)), url('../images/new_bg.png') center/cover no-repeat fixed;
   color: var(--text);
   font-family: var(--font-sans);
   font-size: 16px;
