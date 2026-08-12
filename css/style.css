@@ -26,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: linear-gradient(rgba(240, 244, 243, 0.88), rgba(235, 241, 240, 0.92)), url('../images/lab-bg.jpg') center/cover no-repeat fixed;
   color: var(--text);
   font-family: var(--font-sans);
   font-size: 16px;
@@ -169,12 +169,14 @@ main.container {
 
 .featured {
   position: relative;
-  background: var(--surface);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 32px 28px;
   margin-bottom: 24px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
 }
 
 .featured-label {
@@ -227,7 +229,9 @@ main.container {
   align-items: center;
   gap: 16px;
   padding: 18px 20px;
-  background: var(--surface);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: 16px;
   color: var(--text);
@@ -239,7 +243,7 @@ main.container {
 .link-card:hover,
 .link-card:focus-visible {
   border-color: #5eead4;
-  background: var(--surface-2);
+  background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 8px 24px rgba(13, 148, 136, 0.08);
   transform: translateY(-2px);
 }
@@ -319,11 +323,13 @@ button:focus-visible {
 /* ---------- About ---------- */
 
 .about {
-  background: var(--surface);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 32px 28px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
 }
 
 .section-label {
