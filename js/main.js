@@ -1,47 +1,217 @@
-const CONFIG = {
-  links: [
-    {
-      label: "GitHub",
-      description: "Code, data and research resources",
-      url: "https://github.com/andresgers",
-      icon: "github"
+const TRANSLATIONS = {
+  en: {
+    nav: {
+      home: "Home",
+      research: "Research",
+      projects: "Projects",
+      about: "About",
+      contact: "Contact"
     },
-    {
-      label: "LinkedIn",
-      description: "Academic and professional profile",
-      url: "#",
-      icon: "linkedin",
-      placeholder: true
+    subtitle: ["Genetics", "Bioinformatics", "Molecular Modeling"],
+    featured: {
+      label: "Featured research",
+      title: "In silico analysis of flavonoids against HSV DNA polymerase UL30",
+      desc: "Molecular docking, genomic variation and structural analysis applied to the study of potential antiviral compounds."
     },
-    {
-      label: "Laboratory",
-      description: "Research group and institutional information",
-      url: "#",
-      icon: "flask",
-      placeholder: true
+    about: {
+      label: "About the project",
+      content: "This project integrates bioinformatics, genetic variation analysis and molecular modeling to study the interactions of <strong>quercetin</strong> and <strong>rutin</strong> with the DNA polymerase UL30 of herpes simplex virus (HSV). By combining docking simulations with structural and genomic analysis, the work explores the potential of natural flavonoids as candidate antiviral compounds."
     },
-    {
-      label: "Laboratory social networks",
-      description: "News, projects and research activities",
-      url: "#",
-      icon: "megaphone",
-      placeholder: true
+    footer: "Research Hub · 2026",
+    links: [
+      {
+        label: "GitHub",
+        description: "Code, data and research resources",
+        url: "https://github.com/andresgers",
+        icon: "github"
+      },
+      {
+        label: "LinkedIn",
+        description: "Academic and professional profile",
+        url: "https://www.linkedin.com/in/andresgers",
+        icon: "linkedin",
+        placeholder: true
+      },
+      {
+        label: "Laboratory",
+        description: "Research group and institutional information",
+        url: "https://unam.edu.ar/index.php?view=article&id=621:se-dejo-inaugurado-el-laboratorio-madar-en-la-unam&catid=66",
+        icon: "flask",
+        placeholder: true
+      },
+      {
+        label: "Laboratory social networks",
+        description: "News, projects and research activities",
+        url: "https://www.instagram.com/madar.unam/",
+        icon: "megaphone",
+        placeholder: true
+      },
+      {
+        label: "Thesis / Project",
+        description: "Thesis, poster and supplementary material",
+        url: "#",
+        icon: "document",
+        placeholder: true
+      },
+      {
+        label: "ORCID",
+        description: "Researcher identifier and publications",
+        url: "#",
+        icon: "orcid",
+        placeholder: true
+      },
+      {
+        label: "Contact Form",
+        description: "Send a message or inquiry via Google Forms",
+        url: "#",
+        icon: "contact",
+        placeholder: true
+      }
+    ],
+    badgeSoon: "soon"
+  },
+  es: {
+    nav: {
+      home: "Inicio",
+      research: "Investigación",
+      projects: "Proyectos",
+      about: "Sobre mí",
+      contact: "Contacto"
     },
-    {
-      label: "Thesis / Project",
-      description: "Thesis, poster and supplementary material",
-      url: "#",
-      icon: "document",
-      placeholder: true
+    subtitle: ["Genética", "Bioinformática", "Modelado Molecular"],
+    featured: {
+      label: "Investigación destacada",
+      title: "Análisis in silico de flavonoides contra la ADN polimerasa UL30 de VHS",
+      desc: "Acoplamiento molecular, variación genómica y análisis estructural aplicado al estudio de potenciales compuestos antivirales."
     },
-    {
-      label: "ORCID",
-      description: "Researcher identifier and publications",
-      url: "#",
-      icon: "orcid",
-      placeholder: true
-    }
-  ]
+    about: {
+      label: "Sobre el proyecto",
+      content: "Este proyecto integra bioinformática, análisis de variación genética y modelado molecular para estudiar las interacciones de la <strong>quercetina</strong> y la <strong>rutina</strong> con la ADN polimerasa UL30 del virus herpes simplex (VHS). Combinando simulaciones de docking con análisis estructural y genómico, el trabajo explora el potencial de los flavonoides naturales como candidatos a compuestos antivirales."
+    },
+    footer: "Centro de Investigación · 2026",
+    links: [
+      {
+        label: "GitHub",
+        description: "Código, datos y recursos de investigación",
+        url: "https://github.com/andresgers",
+        icon: "github"
+      },
+      {
+        label: "LinkedIn",
+        description: "Perfil académico y profesional",
+        url: "https://www.linkedin.com/in/andresgers",
+        icon: "linkedin",
+        placeholder: true
+      },
+      {
+        label: "Laboratorio",
+        description: "Grupo de investigación e información institucional",
+        url: "https://unam.edu.ar/index.php?view=article&id=621:se-dejo-inaugurado-el-laboratorio-madar-en-la-unam&catid=66",
+        icon: "flask",
+        placeholder: true
+      },
+      {
+        label: "Redes del laboratorio",
+        description: "Noticias, proyectos y actividades de investigación",
+        url: "https://www.instagram.com/madar.unam/",
+        icon: "megaphone",
+        placeholder: true
+      },
+      {
+        label: "Tesis / Proyecto",
+        description: "Tesis, póster y material suplementario",
+        url: "#",
+        icon: "document",
+        placeholder: true
+      },
+      {
+        label: "ORCID",
+        description: "Identificador de investigador y publicaciones",
+        url: "#",
+        icon: "orcid",
+        placeholder: true
+      },
+      {
+        label: "Formulario de contacto",
+        description: "Envía un mensaje o consulta mediante Google Forms",
+        url: "#",
+        icon: "contact",
+        placeholder: true
+      }
+    ],
+    badgeSoon: "pronto"
+  },
+  pt: {
+    nav: {
+      home: "Início",
+      research: "Pesquisa",
+      projects: "Projetos",
+      about: "Sobre",
+      contact: "Contato"
+    },
+    subtitle: ["Genética", "Bioinformática", "Modelagem Molecular"],
+    featured: {
+      label: "Pesquisa em destaque",
+      title: "Análise in silico de flavonóides contra a DNA polimerase UL30 do HSV",
+      desc: "Docking molecular, variação genômica e análise estrutural aplicada ao estudo de potenciais compostos antivirais."
+    },
+    about: {
+      label: "Sobre o projeto",
+      content: "Este projeto integra bioinformática, análise de variação genética e modelagem molecular para estudar as interações da <strong>quercetina</strong> e da <strong>rutina</strong> com a DNA polimerase UL30 do vírus herpes simplex (HSV). Combinando simulações de docking com análise estrutural e genômica, o trabalho explora o potencial de flavonóides naturais como candidatos a compostos antivirais."
+    },
+    footer: "Centro de Pesquisa · 2026",
+    links: [
+      {
+        label: "GitHub",
+        description: "Código, dados e recursos de pesquisa",
+        url: "https://github.com/andresgers",
+        icon: "github"
+      },
+      {
+        label: "LinkedIn",
+        description: "Perfil acadêmico e profissional",
+        url: "https://www.linkedin.com/in/andresgers",
+        icon: "linkedin",
+        placeholder: true
+      },
+      {
+        label: "Laboratório",
+        description: "Grupo de pesquisa e informações institucionais",
+        url: "https://unam.edu.ar/index.php?view=article&id=621:se-dejo-inaugurado-el-laboratorio-madar-en-la-unam&catid=66",
+        icon: "flask",
+        placeholder: true
+      },
+      {
+        label: "Redes do laboratório",
+        description: "Notícias, projetos e atividades de pesquisa",
+        url: "https://www.instagram.com/madar.unam/",
+        icon: "megaphone",
+        placeholder: true
+      },
+      {
+        label: "Tese / Projeto",
+        description: "Tese, pôster e material suplementar",
+        url: "#",
+        icon: "document",
+        placeholder: true
+      },
+      {
+        label: "ORCID",
+        description: "Identificador de pesquisador e publicações",
+        url: "#",
+        icon: "orcid",
+        placeholder: true
+      },
+      {
+        label: "Formulário de contato",
+        description: "Envie uma mensagem ou consulta via Google Forms",
+        url: "#",
+        icon: "contact",
+        placeholder: true
+      }
+    ],
+    badgeSoon: "breve"
+  }
 };
 
 const ICONS = {
@@ -57,15 +227,19 @@ const ICONS = {
     '<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/>',
   orcid:
     '<circle cx="12" cy="12" r="9"/><path d="M9.5 9v6"/><path d="M11.5 9h2a1.8 1.8 0 0 1 0 3.6h-2"/>',
+  contact:
+    '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
   arrow:
     '<path d="M5 12h14"/><path d="m13 6 6 6-6 6"/>'
 };
 
-function renderLinks() {
+function renderLinks(lang = "en") {
   const container = document.getElementById("links");
+  container.innerHTML = "";
   const fragment = document.createDocumentFragment();
+  const t = TRANSLATIONS[lang];
 
-  CONFIG.links.forEach((link) => {
+  t.links.forEach((link) => {
     const a = document.createElement("a");
     a.href = link.url;
     a.className = "link-card";
@@ -73,7 +247,7 @@ function renderLinks() {
     if (link.placeholder) {
       a.classList.add("is-placeholder");
       a.setAttribute("aria-disabled", "true");
-      a.setAttribute("title", "Link coming soon");
+      a.setAttribute("title", lang === "es" ? "Próximamente" : lang === "pt" ? "Em breve" : "Link coming soon");
     } else {
       a.setAttribute("target", "_blank");
       a.setAttribute("rel", "noopener noreferrer");
@@ -97,7 +271,7 @@ function renderLinks() {
     if (link.placeholder) {
       const badge = document.createElement("span");
       badge.className = "badge";
-      badge.textContent = "soon";
+      badge.textContent = t.badgeSoon;
       label.appendChild(badge);
     }
     const desc = document.createElement("p");
@@ -115,6 +289,57 @@ function renderLinks() {
   });
 
   container.appendChild(fragment);
+}
+
+function setLanguage(lang) {
+  localStorage.setItem("andres_lang", lang);
+  document.documentElement.setAttribute("lang", lang);
+  const t = TRANSLATIONS[lang];
+
+  // Update nav links
+  document.querySelectorAll("[data-i18n-nav]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-nav");
+    if (t.nav[key]) el.textContent = t.nav[key];
+  });
+
+  // Update subtitle
+  const subtitleEl = document.querySelector(".subtitle");
+  if (subtitleEl) {
+    subtitleEl.innerHTML = t.subtitle.map((s) => `<span>${s}</span>`).join("");
+  }
+
+  // Update featured research
+  const featuredLabel = document.getElementById("featured-title");
+  if (featuredLabel) featuredLabel.textContent = t.featured.label;
+
+  const featuredTitle = document.querySelector(".featured-title");
+  if (featuredTitle) featuredTitle.textContent = t.featured.title;
+
+  const featuredDesc = document.querySelector(".featured-desc");
+  if (featuredDesc) featuredDesc.textContent = t.featured.desc;
+
+  // Update about section
+  const aboutTitle = document.getElementById("about-title");
+  if (aboutTitle) aboutTitle.textContent = t.about.label;
+
+  const aboutText = document.querySelector(".about-text");
+  if (aboutText) aboutText.innerHTML = t.about.content;
+
+  // Update footer
+  const footerText = document.querySelector(".footer p");
+  if (footerText) footerText.textContent = t.footer;
+
+  // Re-render links
+  renderLinks(lang);
+
+  // Update active lang buttons
+  document.querySelectorAll(".lang-btn").forEach((btn) => {
+    if (btn.getAttribute("data-lang") === lang) {
+      btn.classList.add("active");
+    } else {
+      btn.classList.remove("active");
+    }
+  });
 }
 
 function initReveal() {
@@ -141,5 +366,17 @@ function initReveal() {
   targets.forEach((el) => observer.observe(el));
 }
 
-renderLinks();
-initReveal();
+// Initialize on DOM load
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLang = localStorage.getItem("andres_lang") || "en";
+  setLanguage(savedLang);
+
+  document.querySelectorAll(".lang-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const lang = btn.getAttribute("data-lang");
+      setLanguage(lang);
+    });
+  });
+
+  initReveal();
+});
