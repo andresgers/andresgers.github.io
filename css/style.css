@@ -169,27 +169,19 @@ a {
   box-shadow: 0 0 0 8px rgba(20, 184, 166, 0.08), 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
-.name {
-  margin: 0;
-  font-size: clamp(2rem, 6vw, 2.8rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
-  color: #0f172a;
-}
-
 .subtitle {
-  margin: 12px 0 0;
+  margin: 0;
   font-family: var(--font-mono);
-  font-size: 0.76rem;
-  letter-spacing: 0.14em;
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: #0f172a;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 8px;
-  row-gap: 6px;
+  gap: 12px;
+  row-gap: 8px;
 }
 
 .subtitle span + span::before {
