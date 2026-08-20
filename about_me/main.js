@@ -87,10 +87,10 @@ const TRANSLATIONS = {
       label: "Education",
       items: [
         {
-          degree: "Degree in Genetics (Licenciatura en Genética)",
+          degree: "Undergraduate Student in Genetics",
           institution: "Universidad Nacional de Misiones (UNAM)",
-          period: "Completed",
-          details: "Rigorous scientific foundation in molecular biology, genetics, bioinformatics, and laboratory methodologies."
+          period: "Ongoing",
+          details: "Scientific foundation in molecular biology, genetics, bioinformatics, and laboratory methodologies."
         },
         {
           degree: "Specialized Courses & Training",
@@ -146,15 +146,13 @@ const TRANSLATIONS = {
         label: "ORCID",
         description: "Researcher identifier and publications",
         url: "#",
-        icon: "orcid",
-        placeholder: true
+        icon: "orcid"
       },
       {
         label: "Contact Form",
         description: "Send a message or inquiry via Google Forms",
         url: "#",
-        icon: "contact",
-        placeholder: true
+        icon: "contact"
       }
     ],
     badgeSoon: "soon",
@@ -254,10 +252,10 @@ const TRANSLATIONS = {
       label: "Educación",
       items: [
         {
-          degree: "Licenciatura en Genética",
+          degree: "Estudiante de Licenciatura en Genética",
           institution: "Universidad Nacional de Misiones (UNAM)",
-          period: "Completado",
-          details: "Sólida formación científica en biología molecular, genética, bioinformática y metodologías de laboratorio."
+          period: "En curso",
+          details: "Formación científica en biología molecular, genética, bioinformática y metodologías de laboratorio."
         },
         {
           degree: "Cursos Especializados y Formación",
@@ -313,15 +311,13 @@ const TRANSLATIONS = {
         label: "ORCID",
         description: "Identificador de investigador y publicaciones",
         url: "#",
-        icon: "orcid",
-        placeholder: true
+        icon: "orcid"
       },
       {
         label: "Formulario de contacto",
         description: "Envía un mensaje o consulta mediante Google Forms",
         url: "#",
-        icon: "contact",
-        placeholder: true
+        icon: "contact"
       }
     ],
     badgeSoon: "pronto",
@@ -421,10 +417,10 @@ const TRANSLATIONS = {
       label: "Educação",
       items: [
         {
-          degree: "Graduação em Genética",
+          degree: "Estudante de Graduação em Genética",
           institution: "Universidad Nacional de Misiones (UNAM)",
-          period: "Concluído",
-          details: "Sólida fundação científica em biologia molecular, genética, bioinformática e metodologias de laboratório."
+          period: "Em andamento",
+          details: "Formação científica em biologia molecular, genética, bioinformática e metodologias de laboratório."
         },
         {
           degree: "Cursos Especializados e Formação",
@@ -480,15 +476,13 @@ const TRANSLATIONS = {
         label: "ORCID",
         description: "Identificador de pesquisador e publicações",
         url: "#",
-        icon: "orcid",
-        placeholder: true
+        icon: "orcid"
       },
       {
         label: "Formulário de contato",
         description: "Envie uma mensagem ou consulta via Google Forms",
         url: "#",
-        icon: "contact",
-        placeholder: true
+        icon: "contact"
       }
     ],
     badgeSoon: "breve",
@@ -744,15 +738,8 @@ function renderLinks(lang = "en") {
       const a = document.createElement("a");
       a.href = link.url;
       a.className = "link-card";
-
-      if (link.placeholder) {
-        a.classList.add("is-placeholder");
-        a.setAttribute("aria-disabled", "true");
-        a.setAttribute("title", lang === "es" ? "Próximamente" : lang === "pt" ? "Em breve" : "Link coming soon");
-      } else {
-        a.setAttribute("target", "_blank");
-        a.setAttribute("rel", "noopener noreferrer");
-      }
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
 
       const icon = document.createElement("span");
       icon.className = "link-icon";
@@ -767,12 +754,6 @@ function renderLinks(lang = "en") {
       const label = document.createElement("span");
       label.className = "link-label";
       label.textContent = link.label;
-      if (link.placeholder) {
-        const badge = document.createElement("span");
-        badge.className = "badge";
-        badge.textContent = t.badgeSoon;
-        label.appendChild(badge);
-      }
       const desc = document.createElement("p");
       desc.className = "link-desc";
       desc.textContent = link.description;
