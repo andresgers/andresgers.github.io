@@ -151,7 +151,7 @@ const TRANSLATIONS = {
       {
         label: "Contact Form",
         description: "Send a message or inquiry via Google Forms",
-        url: "#",
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSfte2EhjJZ42poxQCQXaEJIPwz-ErH02t-iWGUyIrcZhfcOMg/viewform?usp=sharing&ouid=106053085708927062525",
         icon: "contact"
       }
     ],
@@ -316,7 +316,7 @@ const TRANSLATIONS = {
       {
         label: "Formulario de contacto",
         description: "Envía un mensaje o consulta mediante Google Forms",
-        url: "#",
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSfte2EhjJZ42poxQCQXaEJIPwz-ErH02t-iWGUyIrcZhfcOMg/viewform?usp=sharing&ouid=106053085708927062525",
         icon: "contact"
       }
     ],
@@ -481,7 +481,7 @@ const TRANSLATIONS = {
       {
         label: "Formulário de contato",
         description: "Envie uma mensagem ou consulta via Google Forms",
-        url: "#",
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSfte2EhjJZ42poxQCQXaEJIPwz-ErH02t-iWGUyIrcZhfcOMg/viewform?usp=sharing&ouid=106053085708927062525",
         icon: "contact"
       }
     ],
