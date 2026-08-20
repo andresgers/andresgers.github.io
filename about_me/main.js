@@ -13,8 +13,8 @@ const TRANSLATIONS = {
     subtitle: ["Genetics", "Bioinformatics", "Molecular Modeling"],
     about: {
       label: "About me",
-      intro: "Geneticist at the intersection of biology, programming, and data analysis.",
-      text: "Researcher focused on genomics, bioinformatics, and molecular modeling. I combine computational and experimental tools to study molecular mechanisms, genetic variations, and drug-protein interactions."
+      intro: "Andrés, researcher in training working at the intersection of genetics, bioinformatics, and molecular modeling.",
+      text: "I use computational tools to study biological systems and explore new perspectives for research problems. If you have a proposal, project, or simply want to exchange ideas, feel free to reach out."
     },
     projectsSection: {
       label: "Featured projects"
@@ -124,30 +124,23 @@ const TRANSLATIONS = {
       {
         label: "LinkedIn",
         description: "Academic and professional profile",
-        url: "https://www.linkedin.com/in/andresgers",
-        icon: "linkedin",
-        placeholder: true
+        url: "https://www.linkedin.com/in/andresgers/",
+        icon: "linkedin"
       },
       {
         label: "Laboratory",
-        description: "Research group and institutional information",
-        url: "https://unam.edu.ar/index.php?view=article&id=621:se-dejo-inaugurado-el-laboratorio-madar-en-la-unam&catid=66",
+        description: "MADAR Laboratory website and Instagram",
         icon: "flask",
-        placeholder: true
-      },
-      {
-        label: "Laboratory social networks",
-        description: "News, projects and research activities",
-        url: "https://www.instagram.com/madar.unam/",
-        icon: "megaphone",
-        placeholder: true
+        subLinks: [
+          { label: "Website", url: "https://andresgers.github.io/laboratorio_madar" },
+          { label: "Instagram", url: "https://www.instagram.com/madar.unam/" }
+        ]
       },
       {
         label: "Thesis / Project",
-        description: "Thesis, poster and supplementary material",
-        url: "#",
-        icon: "document",
-        placeholder: true
+        description: "Thesis, code and supplementary material",
+        url: "https://github.com/andresgers/tesis_HSV",
+        icon: "document"
       },
       {
         label: "ORCID",
@@ -187,8 +180,8 @@ const TRANSLATIONS = {
     subtitle: ["Genética", "Bioinformática", "Modelado Molecular"],
     about: {
       label: "Sobre mí",
-      intro: "Genetista interesado en la intersección entre biología, programación y análisis de datos.",
-      text: "Investigador enfocado en genómica, bioinformática y modelado molecular. Combino herramientas computacionales y experimentales para estudiar mecanismos moleculares, variaciones genéticas e interacciones fármaco-proteína."
+      intro: "Soy Andrés, investigador en formación, y trabajo en la intersección entre genética, bioinformática y modelado molecular.",
+      text: "Utilizo herramientas computacionales para estudiar sistemas biológicos y explorar nuevas perspectivas para abordar problemas de investigación. Si tenés una propuesta, proyecto o simplemente querés intercambiar ideas, no dudes en contactarme."
     },
     projectsSection: {
       label: "Proyectos destacados"
@@ -298,30 +291,23 @@ const TRANSLATIONS = {
       {
         label: "LinkedIn",
         description: "Perfil académico y profesional",
-        url: "https://www.linkedin.com/in/andresgers",
-        icon: "linkedin",
-        placeholder: true
+        url: "https://www.linkedin.com/in/andresgers/",
+        icon: "linkedin"
       },
       {
         label: "Laboratorio",
-        description: "Grupo de investigación e información institucional",
-        url: "https://unam.edu.ar/index.php?view=article&id=621:se-dejo-inaugurado-el-laboratorio-madar-en-la-unam&catid=66",
+        description: "Sitio web e Instagram del Laboratorio MADAR",
         icon: "flask",
-        placeholder: true
-      },
-      {
-        label: "Redes del laboratorio",
-        description: "Noticias, proyectos y actividades de investigación",
-        url: "https://www.instagram.com/madar.unam/",
-        icon: "megaphone",
-        placeholder: true
+        subLinks: [
+          { label: "Sitio web", url: "https://andresgers.github.io/laboratorio_madar" },
+          { label: "Instagram", url: "https://www.instagram.com/madar.unam/" }
+        ]
       },
       {
         label: "Tesis / Proyecto",
-        description: "Tesis, póster y material suplementario",
-        url: "#",
-        icon: "document",
-        placeholder: true
+        description: "Tesis, código y material suplementario",
+        url: "https://github.com/andresgers/tesis_HSV",
+        icon: "document"
       },
       {
         label: "ORCID",
@@ -361,8 +347,8 @@ const TRANSLATIONS = {
     subtitle: ["Genética", "Bioinformática", "Modelagem Molecular"],
     about: {
       label: "Sobre mim",
-      intro: "Geneticista na interseção entre biologia, programação e análise de dados.",
-      text: "Pesquisador focado em genômica, bioinformática e modelagem molecular. Combino ferramentas computacionais e experimentais para estudar mecanismos moleculares, variações genéticas e interações fármaco-proteína."
+      intro: "Andrés, pesquisador em formação trabalhando na interseção entre genética, bioinformática e modelagem molecular.",
+      text: "Utilizo ferramentas computacionais para estudar sistemas biológicos e explorar novas perspectivas para problemas de pesquisa. Se você tiver uma proposta, projeto ou quiser trocar ideias, sinta-se à vontade para entrar em contato."
     },
     projectsSection: {
       label: "Projetos em destaque"
@@ -472,30 +458,23 @@ const TRANSLATIONS = {
       {
         label: "LinkedIn",
         description: "Perfil académico e profissional",
-        url: "https://www.linkedin.com/in/andresgers",
-        icon: "linkedin",
-        placeholder: true
+        url: "https://www.linkedin.com/in/andresgers/",
+        icon: "linkedin"
       },
       {
         label: "Laboratório",
-        description: "Grupo de pesquisa e informações institucionais",
-        url: "https://unam.edu.ar/index.php?view=article&id=621:se-dejo-inaugurado-el-laboratorio-madar-en-la-unam&catid=66",
+        description: "Site e Instagram do Laboratório MADAR",
         icon: "flask",
-        placeholder: true
-      },
-      {
-        label: "Redes do laboratório",
-        description: "Notícias, projetos e atividades de pesquisa",
-        url: "https://www.instagram.com/madar.unam/",
-        icon: "megaphone",
-        placeholder: true
+        subLinks: [
+          { label: "Site", url: "https://andresgers.github.io/laboratorio_madar" },
+          { label: "Instagram", url: "https://www.instagram.com/madar.unam/" }
+        ]
       },
       {
         label: "Tese / Projeto",
-        description: "Tese, pôster e material suplementar",
-        url: "#",
-        icon: "document",
-        placeholder: true
+        description: "Tese, código e material suplementar",
+        url: "https://github.com/andresgers/tesis_HSV",
+        icon: "document"
       },
       {
         label: "ORCID",
@@ -712,52 +691,101 @@ function renderLinks(lang = "en") {
   const t = TRANSLATIONS[lang];
 
   t.links.forEach((link) => {
-    const a = document.createElement("a");
-    a.href = link.url;
-    a.className = "link-card";
-
-    if (link.placeholder) {
-      a.classList.add("is-placeholder");
-      a.setAttribute("aria-disabled", "true");
-      a.setAttribute("title", lang === "es" ? "Próximamente" : lang === "pt" ? "Em breve" : "Link coming soon");
-    } else {
-      a.setAttribute("target", "_blank");
-      a.setAttribute("rel", "noopener noreferrer");
-    }
-
     const FILL_ICONS = ["github", "linkedin"];
 
-    const icon = document.createElement("span");
-    icon.className = "link-icon";
-    icon.setAttribute("aria-hidden", "true");
-    const attrs = FILL_ICONS.includes(link.icon)
-      ? 'viewBox="0 0 24 24" fill="currentColor"'
-      : 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"';
-    icon.innerHTML = `<svg ${attrs}>${ICONS[link.icon]}</svg>`;
+    if (link.subLinks) {
+      const details = document.createElement("details");
+      details.className = "link-card dropdown-card";
 
-    const text = document.createElement("span");
-    text.className = "link-text";
-    const label = document.createElement("span");
-    label.className = "link-label";
-    label.textContent = link.label;
-    if (link.placeholder) {
-      const badge = document.createElement("span");
-      badge.className = "badge";
-      badge.textContent = t.badgeSoon;
-      label.appendChild(badge);
+      const summary = document.createElement("summary");
+      summary.className = "link-summary";
+
+      const icon = document.createElement("span");
+      icon.className = "link-icon";
+      icon.setAttribute("aria-hidden", "true");
+      const attrs = FILL_ICONS.includes(link.icon)
+        ? 'viewBox="0 0 24 24" fill="currentColor"'
+        : 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"';
+      icon.innerHTML = `<svg ${attrs}>${ICONS[link.icon]}</svg>`;
+
+      const text = document.createElement("span");
+      text.className = "link-text";
+      const label = document.createElement("span");
+      label.className = "link-label";
+      label.textContent = link.label;
+      const desc = document.createElement("p");
+      desc.className = "link-desc";
+      desc.textContent = link.description;
+      text.append(label, desc);
+
+      const arrow = document.createElement("span");
+      arrow.className = "link-arrow";
+      arrow.setAttribute("aria-hidden", "true");
+      arrow.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">${ICONS.arrow}</svg>`;
+
+      summary.append(icon, text, arrow);
+
+      const dropdownContent = document.createElement("div");
+      dropdownContent.className = "dropdown-content";
+
+      link.subLinks.forEach((sub) => {
+        const subA = document.createElement("a");
+        subA.href = sub.url;
+        subA.className = "dropdown-item";
+        subA.target = "_blank";
+        subA.rel = "noopener noreferrer";
+        subA.innerHTML = `<span>${sub.label}</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14">${ICONS.arrow}</svg>`;
+        dropdownContent.appendChild(subA);
+      });
+
+      details.append(summary, dropdownContent);
+      fragment.appendChild(details);
+    } else {
+      const a = document.createElement("a");
+      a.href = link.url;
+      a.className = "link-card";
+
+      if (link.placeholder) {
+        a.classList.add("is-placeholder");
+        a.setAttribute("aria-disabled", "true");
+        a.setAttribute("title", lang === "es" ? "Próximamente" : lang === "pt" ? "Em breve" : "Link coming soon");
+      } else {
+        a.setAttribute("target", "_blank");
+        a.setAttribute("rel", "noopener noreferrer");
+      }
+
+      const icon = document.createElement("span");
+      icon.className = "link-icon";
+      icon.setAttribute("aria-hidden", "true");
+      const attrs = FILL_ICONS.includes(link.icon)
+        ? 'viewBox="0 0 24 24" fill="currentColor"'
+        : 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"';
+      icon.innerHTML = `<svg ${attrs}>${ICONS[link.icon]}</svg>`;
+
+      const text = document.createElement("span");
+      text.className = "link-text";
+      const label = document.createElement("span");
+      label.className = "link-label";
+      label.textContent = link.label;
+      if (link.placeholder) {
+        const badge = document.createElement("span");
+        badge.className = "badge";
+        badge.textContent = t.badgeSoon;
+        label.appendChild(badge);
+      }
+      const desc = document.createElement("p");
+      desc.className = "link-desc";
+      desc.textContent = link.description;
+      text.append(label, desc);
+
+      const arrow = document.createElement("span");
+      arrow.className = "link-arrow";
+      arrow.setAttribute("aria-hidden", "true");
+      arrow.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">${ICONS.arrow}</svg>`;
+
+      a.append(icon, text, arrow);
+      fragment.appendChild(a);
     }
-    const desc = document.createElement("p");
-    desc.className = "link-desc";
-    desc.textContent = link.description;
-    text.append(label, desc);
-
-    const arrow = document.createElement("span");
-    arrow.className = "link-arrow";
-    arrow.setAttribute("aria-hidden", "true");
-    arrow.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">${ICONS.arrow}</svg>`;
-
-    a.append(icon, text, arrow);
-    fragment.appendChild(a);
   });
 
   container.appendChild(fragment);
