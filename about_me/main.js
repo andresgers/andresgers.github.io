@@ -129,12 +129,9 @@ const TRANSLATIONS = {
       },
       {
         label: "Laboratory",
-        description: "MADAR Laboratory website and Instagram",
-        icon: "flask",
-        subLinks: [
-          { label: "Website", url: "https://andresgers.github.io/laboratorio_madar" },
-          { label: "Instagram", url: "https://www.instagram.com/madar.unam/" }
-        ]
+        description: "MADAR Laboratory website",
+        url: "https://andresgers.github.io/laboratorio_madar",
+        icon: "flask"
       },
       {
         label: "Thesis / Project",
@@ -294,12 +291,9 @@ const TRANSLATIONS = {
       },
       {
         label: "Laboratorio",
-        description: "Sitio web e Instagram del Laboratorio MADAR",
-        icon: "flask",
-        subLinks: [
-          { label: "Sitio web", url: "https://andresgers.github.io/laboratorio_madar" },
-          { label: "Instagram", url: "https://www.instagram.com/madar.unam/" }
-        ]
+        description: "Sitio web del Laboratorio MADAR",
+        url: "https://andresgers.github.io/laboratorio_madar",
+        icon: "flask"
       },
       {
         label: "Tesis / Proyecto",
@@ -459,12 +453,9 @@ const TRANSLATIONS = {
       },
       {
         label: "Laboratório",
-        description: "Site e Instagram do Laboratório MADAR",
-        icon: "flask",
-        subLinks: [
-          { label: "Site", url: "https://andresgers.github.io/laboratorio_madar" },
-          { label: "Instagram", url: "https://www.instagram.com/madar.unam/" }
-        ]
+        description: "Site do Laboratório MADAR",
+        url: "https://andresgers.github.io/laboratorio_madar",
+        icon: "flask"
       },
       {
         label: "Tese / Projeto",
